@@ -5053,6 +5053,7 @@ GameObject:
   - component: {fileID: 1434806597}
   - component: {fileID: 1434806599}
   - component: {fileID: 1434806598}
+  - component: {fileID: 1434806600}
   m_Layer: 0
   m_Name: EffectorDown
   m_TagString: Untagged
@@ -5118,6 +5119,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 7}
   m_EdgeRadius: 0
+--- !u!114 &1434806600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1434806596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3db1424d9171f74b970826fc560e472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  child: {fileID: 0}
+  child2: {fileID: 0}
 --- !u!1 &1877495109
 GameObject:
   m_ObjectHideFlags: 0
